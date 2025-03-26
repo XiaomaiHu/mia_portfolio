@@ -22,7 +22,7 @@ repository               : "academicpages/academicpages.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "xiaomai_profile.jpg"
+  avatar           : "images/xiaomai_profile.jpg"
   name             : "Xiaomai (Mia) Hu"
   pronouns         : # example: "she/her"  
   bio              : "Detail-oriented data analyst and designer:\nHalf rational, half intuitive."
