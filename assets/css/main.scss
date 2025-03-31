@@ -39,6 +39,10 @@
     "vendor/font-awesome/fontawesome",
     "vendor/font-awesome/solid",
     "vendor/font-awesome/brands",
-    "vendor/magnific-popup/magnific-popup"，
-    "custom" 
+    "vendor/magnific-popup/magnific-popup",
 ;
+
+.author__avatar img {
+  border-radius: 0 !important;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1) !important;
+}
