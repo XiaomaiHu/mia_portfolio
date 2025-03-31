@@ -6,7 +6,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-I'm an Urban Lover.
+I'm an City Lover.
 ======
 I am currently a Master of Architecture student at UC Berkeley with Graduate Certificate in Applied Data Science and Geographical Information Science and Technology. I'm deeply fascinated by how cities move, grow, and breathe. 
 

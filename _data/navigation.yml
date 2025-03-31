@@ -9,12 +9,12 @@
 
 main:
     
-  - title: "Former Architect"
-    url: /Design_Works/
+  - title: "Design Works"
+    url: /design-works/
 
       
-  - title: "Incoming GISer"
-    url: /Research_Works/
+  - title: "Research Works"
+    url: /research-works/
   
   - title: "CV"
     url: /cv/
