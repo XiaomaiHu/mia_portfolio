@@ -1,72 +1,50 @@
 ---
-layout: default
+layout: single
 title: "Design Works"
 permalink: /design-works/
+author_profile: true
 ---
 
-<h1 style="text-align: center;">Design Works</h1>
+<h1>Design Works</h1>
 
-<div class="portfolio-grid">
+<!-- 项目 1 -->
+<div class="project-block">
+  <img src="/images/project1.jpg" alt="Skyport Project" />
+  <p><strong>Skyport:</strong> A Innovative Transportation Hub Reimagining Multi-Modal Urban Mobility.</p>
+</div>
 
-  <!-- 作品 1 -->
-  <div class="portfolio-item">
-    <a href="https://example.com/project1" target="_blank">
-      <img src="/images/DesignWorks/Skyport.png" alt="Project 1">
-      <h3>Skyport</h3>
-    </a>
-    <p>A Innovative Transportation Hub Reimagining Multi-Modal Urban Mobility.</p>
-  </div>
-
-  <!-- 作品 2 -->
-  <div class="portfolio-item">
-    <a href="https://example.com/project2" target="_blank">
-      <img src="/images/DesignWorks/Sewage.jpg" alt="Project 2">
-      <h3>Poem Of Realtionship</h3>
-    </a>
-    <p>Continuing the vitality of a vacant sewage treatment plant.</p>
-  </div>
+<!-- 项目 2 -->
+<div class="project-block">
+  <img src="/images/project2.jpg" alt="Poem of Relationship" />
+  <p><strong>Poem of Relationship:</strong> Continuing the vitality of a vacant sewage treatment plant.</p>
+</div>
 
   <!-- 更多项目可以继续复制上面的 div -->
 </div>
 
 <style>
-.portfolio-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-  gap: 30px;
-  margin: 40px;
-}
-
-.portfolio-item {
-  text-align: center;
-  background: #f9f9f9;
-  padding: 15px;
-  border-radius: 10px;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-  transition: transform 0.3s ease;
-}
-
-.portfolio-item:hover {
-  transform: translateY(-5px);
-}
-
-.portfolio-item img {
-  width: 100%;
-  height: auto;
-  border-radius: 6px;
-}
-
-.portfolio-item h3 {
-  margin: 10px 0 5px;
-  font-size: 1.1em;
-  color: #004d66;
-}
-
-.portfolio-item p {
-  font-size: 0.95em;
-  color: #555;
-}
-</style>
-
+    .project-block {
+      margin-bottom: 40px;
+      text-align: center;
+    }
+    
+    .project-block img {
+      width: 100%;
+      max-width: 800px;
+      height: auto;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+    
+    .project-block p {
+      font-size: 1.1em;
+      color: #444;
+      margin-top: 10px;
+      line-height: 1.6;
+      max-width: 800px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    </style>
 
 
