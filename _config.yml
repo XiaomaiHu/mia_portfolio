@@ -22,13 +22,12 @@ repository               : "academicpages/academicpages.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "xiaomai_profile.jpg"
+  avatar           : "profile_pic.jpg"
   name             : "Xiaomai (Mia) Hu"
-  pronouns         : # example: "she/her"  
-  bio              : "Detail-oriented data analyst and designer:\nHalf rational, half intuitive."
+  pronouns         : "she/her"  
+  bio              : "Half rational, half intuitive."
   location         : "Emeryville, CA"
-  employer         : "UC Berkeley CED"
-  employer_url     : "https://ced.berkeley.edu"
+  employer         : "<a href='https://ced.berkeley.edu' target='_blank'>UC Berkeley CED</a>"
   linkedin         : "https://www.linkedin.com/in/miaxiaomaihu/"
   email            : "xiaomai_hu@berkeley.edu" 
 

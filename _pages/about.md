@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Hello! This is Xiaomai (Mia) Hu. :bulb:"
+title: ":bulb: Hello! This is Xiaomai (Mia) Hu."
 author_profile: true
 redirect_from: 
   - /about/
