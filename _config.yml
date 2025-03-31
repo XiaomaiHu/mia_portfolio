@@ -27,7 +27,8 @@ author:
   pronouns         : # example: "she/her"  
   bio              : "Detail-oriented data analyst and designer:\nHalf rational, half intuitive."
   location         : "Emeryville, CA"
-  employer         : "University of California at Berkeley"
+  employer         : "UC Berkeley CED"
+  employer_url     : "https://ced.berkeley.edu"
   linkedin         : "https://www.linkedin.com/in/miaxiaomaihu/"
   email            : "xiaomai_hu@berkeley.edu" 
 
