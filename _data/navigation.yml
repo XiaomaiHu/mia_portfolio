@@ -9,9 +9,14 @@
 
 main:
     
-  - title: "Portfolio"
+  - title: "Former Architect"
     url: /portfolio/
+
+      
+  - title: "Incoming GISer"
+    url: /portfolio/
+  
+  - title: "CV"
+    url: /cv/
         
     
-- title: "CV"
-  url: /cv/
