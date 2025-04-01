@@ -7,9 +7,6 @@ author_profile: true
 permalink: /researchworks/tree-structure
 excerpt: 'Robotic printing clay formwork for concrete casting.'
 venue: 'Grasshopper'
-slidesurl: 'http://academicpages.github.io/files/slides1.pdf'
-paperurl: 'http://academicpages.github.io/files/paper1.pdf'
-citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
 ---
 
 The project explores the design and construction of a tree truss structure, inspired by the organic and fluid geometry found in natural tree forms. These profiles exhibit elegance, hollowness, and structural fluidity, which became key design values. However, translating this vision into reality presents significant technical challenges, including geometric instability, material waste, and scale limitations when relying on traditional 3D-printing techniques. 
