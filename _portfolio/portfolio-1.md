@@ -1,6 +1,7 @@
 ---
-title: "Portfolio item number 1"
-excerpt: "Short description of portfolio item number 1<br/><img src='/images/ResearchWorks/Public_Restroom.png'>"
+title: "Where Public Restrooms Are Missing"
+excerpt: "Identifying service gaps through spatial analysis and predictive modeling."
+teaser: /images/ResearchWorks/Public_Restroom.png
 collection: portfolio
 ---
 
