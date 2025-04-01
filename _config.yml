@@ -225,7 +225,7 @@ collections:
   talks:
     output: true
     permalink: /:collection/:path/
-  research:
+  researchworks:
     output: true
     permalink: /:collection/:path/
 
