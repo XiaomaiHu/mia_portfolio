@@ -1,12 +1,65 @@
 ---
-layout: archive
-title: "Research Works"
-permalink: /research-works/
+layout: single
+title: "Exploring the rationality of data."
+permalink: /research/
 author_profile: true
 ---
 
 {% include base_path %}
 
-{% for post in site.research %}
-  {% include archive-single.html %}
-{% endfor %}
+<div class="project-grid">
+
+  <!-- 研究项目 1 -->
+  <div class="project-block">
+    <a href="https://storymaps.arcgis.com/stories/416c5f5969eb49fea7e8400ea8b01f6c" target="_blank">
+      <img src="{{ site.baseurl }}/images/ResearchWorks/Public_Restroom.png" alt="Restroom Research" />
+    </a>
+    <div class="project-text">
+      <p><strong>Where Public Restrooms Are Missing?</strong></p>
+      <p class="project-desc">Identifying service gaps through spatial analysis and predictive modeling.</p>
+    </div>
+  </div>
+  
+  <!-- 研究项目 2 -->
+  <div class="project-block">
+    <img src="{{ site.baseurl }}/images/ResearchWorks/Tree_Formwork.jpg" alt="Tree Structure" />
+    <div class="project-text">
+      <p><strong>Reimaging Tree Structure</strong></p>
+      <p class="project-desc">Robotic printing clay formwork for concrete casting.</p>
+    </div>
+  </div>
+
+</div>
+
+<style>
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 40px;
+  padding: 20px 0;
+}
+
+.project-block img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  margin-bottom: 12px;
+}
+
+.project-text {
+  padding: 0 8px;
+  text-align: left;
+}
+
+.project-text p {
+  margin: 0;
+}
+
+.project-desc {
+  font-size: 0.85em;
+  color: #ccc;
+  margin-top: 4px;
+  line-height: 1.5;
+}
+</style>
