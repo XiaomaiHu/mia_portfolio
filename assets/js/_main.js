@@ -96,4 +96,16 @@ $(document).ready(function () {
     midClick: true // allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source.
   });
 
+  // Intercept external link clicks and show alert
+  $("a").on("click", function (e) {
+    const href = $(this).attr("href");
+
+    if (href && href !== "#" && !href.startsWith("javascript:")) {
+      const isExternal = this.hostname !== window.location.hostname;
+
+      if (isExternal || href.endsWith(".html") || href.endsWith("/")) {
+        alert("loading……");
+      }
+    }
+  });
 });
