@@ -399,3 +399,18 @@
   font-size: $type-size-6;
   text-transform: uppercase;
 }
+
+/* Design Works - Custom Style */
+.project-text p:first-child {
+  font-size: 1rem; // 小标题
+  font-weight: 600;
+  color: #333;
+  margin: 0;
+}
+
+.project-desc {
+  font-size: 0.85rem; // 描述文字
+  color: #aaa;
+  margin-top: 4px;
+  line-height: 1.5;
+}
