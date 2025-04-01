@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "Emeryville, CA"
 site_theme               : "default"
-title                    : "Your Name / Site Title"
+title                    : "About Me / Home"
 title_separator          : "-"
 name                     : &name "Xiaomai Mia Hu"
 description              : &description "personal description"
