@@ -10,31 +10,33 @@ author_profile: true
   <!-- 项目 1 -->
   <div class="project-block">
     <img src="{{ site.baseurl }}/images/DesignWorks/Skyport.png" alt="Skyport Project" />
-    <p><strong>Skyport:</strong> A Innovative Transportation Hub Reimagining Multi-Modal Urban Mobility.</p>
+    <p>
+      <strong>Skyport:</strong><br>
+      <span class="project-desc">A Innovative Transportation Hub Reimagining Multi-Modal Urban Mobility.</span>
+    </p>
   </div>
 
   <!-- 项目 2 -->
   <div class="project-block">
     <img src="{{ site.baseurl }}/images/DesignWorks/Sewage.jpg" alt="Poem of Relationship" />
-    <p><strong>Poem of Relationship:</strong> Continuing the vitality of a vacant sewage treatment plant.</p>
+    <p>
+      <strong>Poem of Relationship:</strong><br>
+      <span class="project-desc">Continuing the vitality of a vacant sewage treatment plant.</span>
+    </p>
   </div>
 
   <!-- 项目 3 -->
   <div class="project-block">
     <img src="{{ site.baseurl }}/images/DesignWorks/WaterfrontNexus.jpg" alt="Waterfront Nexus" />
-    <p><strong>Waterfront Nexus-Triple-axes Urban Framework:</strong> A Developing Waterfront Community in the Periphery of Beijing</p>
-  </div>
-
-  <!-- 项目 4 -->
-  <div class="project-block">
-    <img src="{{ site.baseurl }}/images/DesignWorks/Sewage.jpg" alt="Poem of Relationship" />
-    <p><strong>Poem of Relationship:</strong> Continuing the vitality of a vacant sewage treatment plant.</p>
+    <p>
+      <strong>Waterfront Nexus-Triple-axes Urban Framework:</strong><br>
+      <span class="project-desc">A Developing Waterfront Community in the Periphery of Beijing</span>
+    </p>
   </div>
 
 </div>
 
 <style>
-/* 网格布局：每行两列 */
 .project-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
@@ -42,12 +44,10 @@ author_profile: true
   padding: 20px 0;
 }
 
-/* 每个项目块 */
 .project-block {
   text-align: center;
 }
 
-/* 图片样式 */
 .project-block img {
   width: 100%;
   height: auto;
@@ -55,12 +55,10 @@ author_profile: true
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
-/* 说明文字样式 */
-.project-block p {
-  font-size: 1.1em;
-  margin-top: 10px;
-  line-height: 1.6;
-  padding: 0 10px;
+/* 说明文字变小 */
+.project-desc {
+  font-size: 0.75em;
+  color: #ccc;
 }
 </style>
 
