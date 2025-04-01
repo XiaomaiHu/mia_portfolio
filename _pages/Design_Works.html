@@ -7,9 +7,19 @@ author_profile: true
 
 <div class="project-grid">
 
-  <!-- 项目 1 -->
+  <!-- 项目 1 - 支持 Lightbox 多图切换 -->
   <div class="project-block">
-    <img src="{{ site.baseurl }}/images/DesignWorks/Skyport.png" alt="Skyport Project" />
+    <a href="{{ site.baseurl }}/images/DesignWorks/Skyport.png" data-lightbox="skyport" data-title="Skyport - Overview">
+      <img src="{{ site.baseurl }}/images/DesignWorks/Skyport.png" alt="Skyport Project" class="thumbnail" />
+    </a>
+    <!-- 隐藏的图集图 -->
+    <a href="{{ site.baseurl }}/images/DesignWorks/Portfolio_Mia_Page3.jpg" data-lightbox="skyport" data-title="Skyport - View 1" style="display:none;"></a>
+    <a href="{{ site.baseurl }}/images/DesignWorks/Portfolio_Mia_Page4.jpg" data-lightbox="skyport" data-title="Skyport - View 2" style="display:none;"></a>
+    <a href="{{ site.baseurl }}/images/DesignWorks/Portfolio_Mia_Page5.jpg" data-lightbox="skyport" data-title="Skyport - View 3" style="display:none;"></a>
+    <a href="{{ site.baseurl }}/images/DesignWorks/Portfolio_Mia_Page6.jpg" data-lightbox="skyport" data-title="Skyport - View 4" style="display:none;"></a>
+    <a href="{{ site.baseurl }}/images/DesignWorks/Portfolio_Mia_Page7.jpg" data-lightbox="skyport" data-title="Skyport - View 5" style="display:none;"></a>
+    <a href="{{ site.baseurl }}/images/DesignWorks/Portfolio_Mia_Page8.jpg" data-lightbox="skyport" data-title="Skyport - View 6" style="display:none;"></a>
+
     <div class="project-text">
       <p><strong>Skyport</strong></p>
       <p class="project-desc">A Innovative Transportation Hub Reimagining Urban Mobility.</p>
@@ -48,12 +58,13 @@ author_profile: true
   text-align: left;
 }
 
+.thumbnail,
 .project-block img {
   width: 100%;
   height: auto;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-  margin-bottom: 12px; /* 加图文间距 */
+  margin-bottom: 12px;
 }
 
 .project-text {
@@ -71,5 +82,4 @@ author_profile: true
   line-height: 1.5;
 }
 </style>
-
 
