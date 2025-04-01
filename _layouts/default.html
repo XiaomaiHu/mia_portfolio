@@ -9,8 +9,8 @@ layout: compress
   <head>
     {% include head.html %}
     {% include head/custom.html %}
-  
-    <!-- ✅ 加入 Lightbox2 CSS -->
+
+    <!-- ✅ Lightbox2 CSS -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css" rel="stylesheet" />
   </head>
 
@@ -30,7 +30,9 @@ layout: compress
 
     {% include scripts.html %}
 
-  </body>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
+    <!-- ✅ Lightbox2 JS 插入在 </body> 前 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
+
   </body>
 </html>
+
